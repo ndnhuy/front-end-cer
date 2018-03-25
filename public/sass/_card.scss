@@ -1,0 +1,30 @@
+.card {
+  //TODO container should decide these properties
+  border: 1px solid #BFBFBF;
+  box-shadow: 0px 2px 11px 1px #aaaaaa;
+  width: 20rem;
+  background-color: white;
+  height: 23rem;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0.8rem;
+
+  &__title {
+    justify-self: flex-start;
+    font-size: 1rem;
+    font-weight: bold;
+    color: grey;
+  }
+
+  &__body {
+    font-size: 1.4rem;
+    color: #5e5e5e;
+  }
+
+  &__footer {
+    justify-self: flex-end;
+  }
+}

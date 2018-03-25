@@ -1,11 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>RWD - Responsive Web Design Assignment</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <title>RWD - Responsive Web Design Assignment</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <h1>Welcome to Responsive Web Design Technical Challenge</h1>
+  <header class="header">
+    <div class="logo header__logo">
+      <span>R</span>
+      <span>W</span>
+      <span>D</span>
+    </div>
+    <nav class="menu header__menu">
+      <ul class="menu__container">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Explore</a>
+        </li>
+        <li>
+          <a href="#">Pricing</a>
+        </li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+        <li>
+          <a href="#">Team</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__button">
+      <button class="button button__round-rect">Sign up free</button>
+    </div>
+  </header>
+  <section class="main">
+    <div class="banner">
+      <article class="content content--theme-dark content--spacing content--centered">
+        <h1 class="content__title content__title--size-l">RWD - RESPONSIVE WEB DESIGN</h1>
+        <p class="content__description content__description--size-l">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+      </article>
+      <div>
+        <button>Demo</button>
+        <button>Download</button>
+      </div>
+    </div>
+
+    <!-- products -->
+    <div class="product-explorer">
+      <article class="content content--theme-light content--spacing content--centered">
+        <h1 class="content__title content__title--size-m">Explore Our Products</h1>
+        <p class="content__description content__description--size-m">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+        <hr class="separate-line content__footer">
+      </article>
+      <div class="product product-explorer__product">
+        <div class="product__show">
+          <img src="images/work1.png">
+        </div>
+        <div class="product__description">
+          <article class="content content--theme-light product__content--spacing">
+            <h1 class="content__title content__title--size-s">Real Project For Real Solutions</h1>
+            <p class="content__description content__description--size-m">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          </article>
+          <article class="content content--theme-light product__content--spacing">
+            <h1 class="content__title content__title--size-s">Real Project For Real Solutions</h1>
+            <p class="content__description content__description--size-m">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          </article>
+          <article class="content content--theme-light product__content--spacing">
+            <h1 class="content__title content__title--size-s">Real Project For Real Solutions</h1>
+            <p class="content__description content__description--size-m">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- plans -->
+    <div class="plan content">
+      <article class="content content--theme-light content--spacing content--centered">
+        <h1 class="content__title content__title--size-m">Plans Built For Every One</h1>
+        <p class="content__description content__description--size-m">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+        <hr class="separate-line content__footer">
+      </article>
+      <div class="plan__cards">
+        <div class="card">
+          <h4 class="card__title">STARTER</h4>
+          <article class="card__body">
+            <p>$9/MONTH</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          </article>
+          <div class="card__footer">
+            <button>SELECT PLAN</button>
+          </div>
+        </div>
+        <div class="card">
+          <h4 class="card__title">BASIC</h4>
+          <article class="card__body">
+            <p>$27/MONTH</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          </article>
+          <div class="card__footer">
+            <button>SELECT PLAN</button>
+          </div>
+        </div>
+        <div class="card">
+          <h4 class="card__title">PRO</h4>
+          <article class="card__body">
+            <p>$74/MONTH</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          </article>
+          <div class="card__footer">
+            <button>SELECT PLAN</button>
+          </div>
+        </div>
+        <div class="card">
+          <h4 class="card__title">UNLIMITED</h4>
+          <article class="card__body">
+            <p>$140/MONTH</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          </article>
+          <div class="card__footer">
+            <button>SELECT PLAN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services -->
+    <div class="content">
+      <div class="content__intro"></div>
+      <div class="content__details"></div>
+    </div>
+
+    <!-- team -->
+    <div class="content">
+      <div class="content__intro"></div>
+      <div class="content__details"></div>
+    </div>
+  </section>
+  <footer class="footer"></footer>
 </body>
+
 </html>

@@ -3,6 +3,7 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     sourcemaps = require('gulp-sourcemaps'),
+    watch = require('gulp-watch'),
     browserSync = require('browser-sync').create();
 
 
@@ -11,7 +12,9 @@ gulp.task('serve', ['sass'], function () {
         server: './public'
     });
 
-    gulp.watch('./public/sass/**/*.scss', ['sass']);
+    watch('./public/sass/**/*.scss', function() {
+        gulp.start('sass');
+    });
     gulp.watch('./public/**/*.html').on('change', browserSync.reload);
 });
 

@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+//TODO create a usable flex layout
+.header__logo {
+  flex: 3;
+}
+
+.header__menu, 
+.header__button {
+  flex: 1;
+}

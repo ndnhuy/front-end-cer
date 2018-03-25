@@ -1,0 +1,60 @@
+.content {
+  &__footer {
+    margin-bottom: 3rem;
+  }
+
+  &--spacing {
+    padding: 0 30rem;
+  }
+
+  &__title {
+    &--size-l {
+      font-size: 3.2rem;
+    }
+  
+    &--size-m {
+      font-size: 3rem;
+    }
+  
+    &--size-s {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__description {
+    font-weight: 700;
+    margin: 2rem 0;
+
+    &--size-l {
+      font-size: 1.5rem;
+    }
+  
+    &--size-m {
+      font-size: 1.2rem;
+    }
+  
+    &--size-s {
+      font-size: 0.8rem;
+    }
+  }
+
+  &--centered {
+    text-align: center;
+  }
+
+  &--theme-dark {
+    .content__title {
+      color: white;
+    }
+  
+    .content__description {
+      color: #ffffffc7;
+    }
+  }
+
+  &--theme-light {
+    .content__description {
+      color: #5e5e5e;
+    }
+  }
+}

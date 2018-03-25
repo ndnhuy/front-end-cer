@@ -1,5 +1,11 @@
-$primary-color: #ff3b30;
-
-h1 {
-  color: $primary-color;
-}
+@import "simple-line-icons";
+@import "common";
+@import "base";
+@import "header";
+@import "menu";
+@import "content";
+@import "banner";
+@import "product-explorer";
+@import "product";
+@import "plan";
+@import "card";
