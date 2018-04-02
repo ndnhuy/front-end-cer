@@ -1,0 +1,55 @@
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  min-height: 50rem;
+
+  &--theme-dark {
+    background-color: grey;
+
+    .section__heading {
+      color: white;
+    }
+
+    .section__text {
+      color: #ffffffc7;
+    }
+  }
+
+  &--theme-sky {
+    background-color: #add8e647;
+
+    .section__heading {
+      color: black;
+    }
+
+    .section__text {
+      color: #5e5e5e;
+    }
+  }
+
+  &--theme-light {
+    background-color: white;
+
+    .section__heading {
+      color: black;
+    }
+
+    .section__text {
+      color: #5e5e5e;
+    }
+  }
+
+  &__heading,
+  &__text {
+    margin-bottom: 1.5rem;
+  }
+
+  &--padding-bottom-only {
+    padding-top: 0rem;
+  }
+
+  &--padding-top-only {
+    padding-bottom: 0rem;
+  }
+  
+}

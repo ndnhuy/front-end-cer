@@ -6,4 +6,8 @@
   min-height: 42rem;
   padding-bottom: 10rem;
   background-color: grey;
+
+  &__title {
+    font-weight: bold;
+  }
 }

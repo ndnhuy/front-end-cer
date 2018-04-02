@@ -2,29 +2,24 @@
   //TODO container should decide these properties
   border: 1px solid #BFBFBF;
   box-shadow: 0px 2px 11px 1px #aaaaaa;
-  width: 20rem;
-  background-color: white;
-  height: 23rem;
-
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 0.8rem;
+  margin: 0 1rem;
+  padding: 1rem;
+  background-color: white;
 
   &__title {
-    justify-self: flex-start;
-    font-size: 1rem;
-    font-weight: bold;
-    color: grey;
+    margin-bottom: 0.5rem;
+  }
+
+  &__subtitle {
+    margin-bottom: 1.5rem;
   }
 
   &__body {
-    font-size: 1.4rem;
-    color: #5e5e5e;
+    margin-bottom: 1.5rem;
   }
 
   &__footer {
-    justify-self: flex-end;
+    margin-bottom: 1.5rem;
   }
 }

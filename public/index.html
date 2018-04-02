@@ -9,12 +9,12 @@
 
 <body>
   <header class="header">
-    <div class="logo header__logo">
+    <div class="logo  header__logo">
       <span>R</span>
       <span>W</span>
       <span>D</span>
     </div>
-    <nav class="menu header__menu">
+    <nav class="menu  header__menu">
       <ul class="menu__container">
         <li>
           <a href="#">Home</a>
@@ -37,119 +37,284 @@
       <button class="button button__round-rect">Sign up free</button>
     </div>
   </header>
-  <section class="main">
-    <div class="banner">
-      <article class="content content--theme-dark content--spacing content--centered">
-        <h1 class="content__title content__title--size-l">RWD - RESPONSIVE WEB DESIGN</h1>
-        <p class="content__description content__description--size-l">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        </p>
-      </article>
+  <section class="section section--padding-bottom-only section--theme-dark grid grid--center">
+    <div class="grid__cell grid__cell--up-6of12 text-center">
+      <h1 class="section__heading heading-l">RWD - RESPONSIVE WEB DESIGN</h1>
+      <p class="section__text text-l">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+        penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      </p>
       <div>
         <button>Demo</button>
         <button>Download</button>
       </div>
     </div>
+  </section>
 
-    <!-- products -->
-    <div class="product-explorer">
-      <article class="content content--theme-light content--spacing content--centered">
-        <h1 class="content__title content__title--size-m">Explore Our Products</h1>
-        <p class="content__description content__description--size-m">
+  <!-- products -->
+  <section class="section section--padding-top-only section--theme-light">
+    <div class="grid grid--center">
+      <div class="grid__cell grid__cell--up-6of12 text-center">
+        <h1 class="section__heading heading-m gutter-bottom">Explore Our Products</h1>
+        <p class="section__text text-m gutter-bottom">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
           penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         </p>
-        <hr class="separate-line content__footer">
-      </article>
-      <div class="product product-explorer__product">
-        <div class="product__show">
-          <img src="images/work1.png">
-        </div>
-        <div class="product__description">
-          <article class="content content--theme-light product__content--spacing">
-            <h1 class="content__title content__title--size-s">Real Project For Real Solutions</h1>
-            <p class="content__description content__description--size-m">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-          </article>
-          <article class="content content--theme-light product__content--spacing">
-            <h1 class="content__title content__title--size-s">Real Project For Real Solutions</h1>
-            <p class="content__description content__description--size-m">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-          </article>
-          <article class="content content--theme-light product__content--spacing">
-            <h1 class="content__title content__title--size-s">Real Project For Real Solutions</h1>
-            <p class="content__description content__description--size-m">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-          </article>
-        </div>
       </div>
     </div>
-
-    <!-- plans -->
-    <div class="plan content">
-      <article class="content content--theme-light content--spacing content--centered">
-        <h1 class="content__title content__title--size-m">Plans Built For Every One</h1>
-        <p class="content__description content__description--size-m">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        </p>
-        <hr class="separate-line content__footer">
-      </article>
-      <div class="plan__cards">
-        <div class="card">
-          <h4 class="card__title">STARTER</h4>
-          <article class="card__body">
-            <p>$9/MONTH</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-          </article>
-          <div class="card__footer">
-            <button>SELECT PLAN</button>
-          </div>
-        </div>
-        <div class="card">
-          <h4 class="card__title">BASIC</h4>
-          <article class="card__body">
-            <p>$27/MONTH</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-          </article>
-          <div class="card__footer">
-            <button>SELECT PLAN</button>
-          </div>
-        </div>
-        <div class="card">
-          <h4 class="card__title">PRO</h4>
-          <article class="card__body">
-            <p>$74/MONTH</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-          </article>
-          <div class="card__footer">
-            <button>SELECT PLAN</button>
-          </div>
-        </div>
-        <div class="card">
-          <h4 class="card__title">UNLIMITED</h4>
-          <article class="card__body">
-            <p>$140/MONTH</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-          </article>
-          <div class="card__footer">
-            <button>SELECT PLAN</button>
+    <div class="grid grid--center gutter-bottom--double">
+      <hr class="separate-line">
+    </div>
+    <div class="grid background-lightdark padding-tight">
+      <div class="grid__cell">
+        <img src="images/work1.png">
+      </div>
+      <div class="grid__cell">
+        <div class="grid grid--center full-height">
+          <div class="grid__cell grid__cell--up-6of12">
+            <article class="gutter-bottom">
+              <h1 class="heading-s">Real Project For Real Solutions</h1>
+              <p class="text-s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            </article>
+            <article class="gutter-bottom">
+              <h1 class="heading-s">Real Project For Real Solutions</h1>
+              <p class="text-s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            </article>
+            <article class="gutter-bottom">
+              <h1 class="heading-s">Real Project For Real Solutions</h1>
+              <p class="text-s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            </article>
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- services -->
-    <div class="content">
-      <div class="content__intro"></div>
-      <div class="content__details"></div>
-    </div>
-
-    <!-- team -->
-    <div class="content">
-      <div class="content__intro"></div>
-      <div class="content__details"></div>
     </div>
   </section>
-  <footer class="footer"></footer>
+
+  <!-- plans -->
+  <section class="section section--theme-sky">
+    <div class="grid grid--center">
+      <div class="grid__cell grid__cell--up-6of12 text-center">
+        <h1 class="section__heading heading-m">Plans Built For Every One</h1>
+        <p class="section__text text-m">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+        <!-- //TODO use ::after ?? -->
+      </div>
+    </div>
+    <div class="grid grid--center gutter-bottom--double">
+      <hr class="separate-line">
+    </div>
+    <div class="grid grid--center gutter-bottom--double">
+      <div class="card grid__cell grid__cell--up-2of12">
+        <h4 class="card__title">STARTER</h4>
+        <article class="card__body">
+          <p>$9/MONTH</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+        </article>
+        <div class="card__footer">
+          <button>SELECT PLAN</button>
+        </div>
+      </div>
+      <div class="card grid__cell grid__cell--up-2of12">
+        <h4 class="card__title">BASIC</h4>
+        <article class="card__body">
+          <p>$27/MONTH</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+        </article>
+        <div class="card__footer">
+          <button>SELECT PLAN</button>
+        </div>
+      </div>
+      <div class="card grid__cell grid__cell--up-2of12">
+        <h4 class="card__title">PRO</h4>
+        <article class="card__body">
+          <p>$74/MONTH</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+        </article>
+        <div class="card__footer">
+          <button>SELECT PLAN</button>
+        </div>
+      </div>
+      <div class="card grid__cell grid__cell--up-2of12">
+        <h4 class="card__title">UNLIMITED</h4>
+        <article class="card__body">
+          <p>$140/MONTH</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+        </article>
+        <div class="card__footer">
+          <button>SELECT PLAN</button>
+        </div>
+      </div>
+    </div>
+    <div class="grid grid--center">
+      <div class="grid__cell grid__cell--up-4of12">
+        <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+          natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </span>
+        <span>Learn more</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- services -->
+  <section class="section section--theme-light">
+    <div class="grid grid--center">
+      <div class="grid__cell grid__cell--up-6of12 text-center">
+        <h1 class="section__heading heading-m">We Offer Services</h1>
+        <p class="section__text text-m">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+      </div>
+    </div>
+    <div class="grid grid--center gutter-bottom--double">
+      <hr class="separate-line">
+    </div>
+    <div class="grid grid--center gutter-bottom--double">
+      <div class="grid__cell grid__cell--up-6of12">
+        <div class="grid gutter-bottom--double">
+          <article class="grid__cell grid__cell--up-4of12">
+            <h1 class="section__heading heading-s">Hand-crafted with Detailed</h1>
+            <p class="section__text text-s">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+          </article>
+          <article class="grid__cell grid__cell--up-4of12">
+            <h1 class="section__heading heading-s">Award-winning Landing Page</h1>
+            <p class="section__text text-s">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+          </article>
+          <article class="grid__cell grid__cell--up-4of12">
+            <h1 class="section__heading heading-s">Satisfied & Happy Clients</h1>
+            <p class="section__text text-s">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+          </article>
+          <article class="grid__cell grid__cell--up-4of12">
+            <h1 class="section__heading heading-s">Light and Fast</h1>
+            <p class="section__text text-s">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+          </article>
+          <article class="grid__cell grid__cell--up-4of12">
+            <h1 class="section__heading heading-s">Sleek and Smooth Animation</h1>
+            <p class="section__text text-s">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+          </article>
+          <article class="grid__cell grid__cell--up-4of12">
+            <h1 class="section__heading heading-s">Looks Amazing on Devices</h1>
+            <p class="section__text text-s">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+          </article>
+        </div>
+
+        <!-- <div class="grid">
+          
+        </div> -->
+      </div>
+    </div>
+    <div class="grid grid--center">
+      <button>LEARN MORE</button>
+    </div>
+  </section>
+
+  <!-- team -->
+  <section class="section section--theme-sky">
+    <div class="grid grid--center">
+      <div class="grid__cell grid__cell--up-6of12 text-center">
+        <h1 class="section__heading heading-m">Meet The Team</h1>
+        <p class="section__text text-m">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+      </div>
+    </div>
+    <div class="grid grid--center gutter-bottom--double">
+      <hr class="separate-line">
+    </div>
+    <div class="grid grid--center gutter-bottom--double">
+      <div class="card grid__cell grid__cell--up-2of12">
+        <h4 class="card__title">ROGER GARFIELD</h4>
+        <p class="card__subtitle">Co-Founder, Lead Developer</p>
+        <article class="card__body">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </article>
+        <div class="card__footer">
+          <button>SELECT PLAN</button>
+        </div>
+      </div>
+      <div class="card grid__cell grid__cell--up-2of12">
+        <h4 class="card__title">KEVIN STEVE</h4>
+        <p class="card__subtitle">Co-Founder, Product Designer</p>
+        <article class="card__body">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </article>
+        <div class="card__footer">
+          <button>SELECT PLAN</button>
+        </div>
+      </div>
+      <div class="card grid__cell grid__cell--up-2of12">
+        <h4 class="card__title">ROSS STANDFORD</h4>
+        <p class="card__subtitle">Full Stack Developer</p>
+        <article class="card__body">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </article>
+        <div class="card__footer">
+          <button>SELECT PLAN</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="grid grid--center">
+      <div class="grid__cell grid__cell--up-2of12">
+        <h1>About Us</h1>
+        <hr class="separate-line separate-line--small">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+          natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <hr class="separate-line separate-line--small">
+        <p>Lorem ipsum dolor sit amet</p>
+        <p>All Rights Reserved.</p>
+      </div>
+      <div class="grid__cell grid__cell--up-2of12">
+        <div class="grid">
+          <div class="grid__cell">
+            <h1>Our Address</h1>
+            <hr class="separate-line separate-line--small">
+            <div>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            </div>
+            <div>
+              +1235 2355 98
+            </div>
+            <div>
+              info@yoursite.com
+            </div>
+            <div>
+              www.yoursite.com
+            </div>
+            <h1>Connect with Us</h1>
+            <hr class="separate-line separate-line--small">
+          </div>
+        </div>
+      </div>
+      <div class="grid__cell grid__cell--up-2of12">
+        <h1>Drop us a line</h1>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

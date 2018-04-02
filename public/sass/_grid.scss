@@ -1,0 +1,34 @@
+@import "variables";
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  
+  &__cell {
+    flex: 1;
+
+    @for $i from 1 through $grid-columns {
+      &--up-#{$i}of#{$grid-columns} {
+        flex: 0 0 100% / $grid-columns * $i;
+      }
+    }
+
+  }
+
+  &--column-direction {
+    flex-direction: column;
+  }
+
+  &--horizontally-center {
+    justify-content: center;
+  }
+  
+  &--vertically-center {
+    align-items: center;
+  }
+
+  &--center {
+    align-items: center;
+    justify-content: center;
+  }
+}
