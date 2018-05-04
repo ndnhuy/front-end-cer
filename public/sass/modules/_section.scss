@@ -1,0 +1,59 @@
+.section {
+  position: relative;
+  min-height: 40rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  @include lg {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    min-height: 50rem;
+  }
+
+  &__heading,
+  &__text {
+    margin-bottom: 1rem;
+
+    @include lg {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &--padding-bottom-only {
+    padding-top: 0rem;
+  }
+
+  &--padding-top-only {
+    padding-bottom: 0rem;
+  }
+
+  &--theme-dark {
+    background-color: grey;
+    .section__heading {
+      color: white;
+    }
+    .section__text {
+      color: #E3E3E3;
+    }
+  }
+
+  &--theme-sky {
+    background-color: #e9f4f8;
+    .section__heading {
+      color: black;
+    }
+    .section__text {
+      color: #5e5e5e;
+    }
+  }
+
+  &--theme-light {
+    background-color: white;
+    .section__heading {
+      color: black;
+    }
+    .section__text {
+      color: #5e5e5e;
+    }
+  }
+}

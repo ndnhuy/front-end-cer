@@ -1,0 +1,19 @@
+.footer {
+  min-height: 30rem;
+  background-color: #3F5267;
+  color: #73879D;
+  padding-top: 2rem;
+
+  &__section {
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    color: white;
+    margin-bottom: 0.8rem;
+  }
+
+  &__item {
+    margin-bottom: 1rem;
+  }
+}

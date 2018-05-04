@@ -1,0 +1,81 @@
+@import "variables";
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  &--space-between {
+    justify-content: space-between;
+  }
+
+  &--equal-height {
+    .grid__cell {
+      height: 100%;
+    }
+  }
+
+  &--padded-cell {
+    .grid__cell {
+      padding-bottom: 1rem;
+    }
+  }
+
+  &--padded-cell-size {
+    .grid__cell {
+      padding: 0 0.2rem;
+    }
+  }
+
+  @include md {
+    &--tablet-padded-cell-around {
+      .grid__cell {
+        padding: 1rem;
+      }
+    }
+  }
+
+  @include lg{
+    &--desktop-padded-cell-side {
+      .grid__cell {
+        padding: 0 1rem;
+      }
+    }
+  }
+
+  &__cell {
+    width: 100%;
+
+    @include generateGrid('mobile');
+
+    @include md {
+      flex: 1;
+      margin: 0;
+
+      @include generateGrid('tablet');
+    }
+
+    @include lg {
+      flex: 1;
+      margin: 0;
+
+      @include generateGrid('desktop');
+    }
+  }
+
+  &--column-direction {
+    flex-direction: column;
+  }
+
+  &--horizontally-center {
+    justify-content: center;
+  }
+  
+  &--vertically-center {
+    align-items: center;
+  }
+
+  &--center {
+    align-items: center;
+    justify-content: center;
+  }
+}

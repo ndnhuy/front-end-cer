@@ -1,0 +1,39 @@
+@mixin sm {
+  @media only screen and (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media only screen and  (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media only screen and  (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+@mixin onlyIE {
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    @content;
+ }
+}
+
+@mixin generateGrid($name) {
+  $grid-columns: $mobile-grid-columns;
+  @if $name == 'tablet' {
+    $grid-columns: $tablet-grid-columns
+  } @else if $name == 'desktop' {
+    $grid-columns: $desktop-grid-columns
+  }
+  @for $i from 1 through $grid-columns {
+    &--#{$name}-up-#{$i}of#{$grid-columns} {
+      flex: 0 0 100% / $grid-columns * $i;
+      // IE fix
+      max-width: 100% / $grid-columns * $i;
+    }
+  }
+}

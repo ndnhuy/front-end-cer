@@ -1,0 +1,18 @@
+.separate-line {
+  display: inline-block;
+  width: 3em;
+  height: 2px;
+  background-color: #4BC3F7;
+  border: 0;
+
+  @include lg {
+    width: 4em;
+  }
+
+  &--small {
+    width: 1.6em;
+    @include lg {
+      width: 2em;
+    }
+  }
+}

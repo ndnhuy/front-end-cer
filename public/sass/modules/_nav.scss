@@ -1,0 +1,67 @@
+.nav {
+  position: relative;
+  
+  @include lg {
+    display: flex;
+    align-items: center;
+  }
+
+  &--theme-light {
+    a {
+      color: grey;
+    }
+  }
+
+  &__logo {
+    flex: 1;
+  }
+
+  &__toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    @include lg {
+      display: none;
+    }
+  }
+
+  &__container {
+    list-style-type: none;
+    display: none;
+
+    @include lg {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__item {
+    margin: 0;
+    padding: 0.5rem;
+    overflow: hidden;
+
+    @include lg {
+      padding: 13px 10px;
+    }
+  }
+
+  &__link {
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+
+  &__underline {
+    visibility: hidden;
+    border-bottom: 2px solid red;
+  }
+}
+
+#nav__toggle-checkbox {
+  display: none;
+}
+
+//TODO refactor
+#nav__toggle-checkbox:checked ~ .nav__container {
+  display: block;
+}

@@ -1,0 +1,19 @@
+.logo {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1rem;
+  color: grey;
+  cursor: pointer;
+
+  @include md {
+    font-size: 1.5rem;
+  }
+
+  @include lg {
+    font-size: 2rem;
+  }
+}
+
+.logo > span:first-child {
+  color: red;
+}

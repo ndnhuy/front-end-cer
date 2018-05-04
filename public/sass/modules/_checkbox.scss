@@ -1,0 +1,48 @@
+.checkbox {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+
+  [type="radio"] {
+    visibility: hidden;
+  }
+
+  [type="radio"]:checked + label:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #4BC3F7;
+    border-radius: 100%;
+  }
+
+  [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 100%;
+  }
+
+  [type="radio"]:checked + label:after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    width: 3px;
+    height: 6px;
+    border: solid #4BC3F7;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  
+  label {
+    padding-left: 15px;
+  }
+}

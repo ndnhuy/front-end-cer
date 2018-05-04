@@ -1,0 +1,31 @@
+.plan-container {
+  min-height: 300px;
+}
+
+.plan {
+
+  @include lg {
+  }
+
+  &__heading {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+
+  &__price {
+    font-size: 4rem;
+  }
+
+  &__currency-unit {
+    font-weight: bold;
+  }
+
+  &__text {
+    color: #7F7F7F;
+  }
+
+  &__fixed-height {
+    min-height: 165px;
+  }
+}

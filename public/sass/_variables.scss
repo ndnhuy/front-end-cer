@@ -1,1 +1,7 @@
-$grid-columns: 12;
+$desktop-grid-columns: 12;
+$tablet-grid-columns: 6;
+$mobile-grid-columns: 4;
+
+$screen-sm-min: 576px;
+$screen-md-min: 768px;
+$screen-lg-min: 992px;

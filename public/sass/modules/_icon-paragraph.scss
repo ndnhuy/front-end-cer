@@ -1,0 +1,29 @@
+.icon-paragraph {
+  display: flex;
+  &--center {
+    align-items: center;
+  }
+
+  &__icon {
+    font-size: 1rem;
+    color: #4BC3F7;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+    
+    @include lg {
+      font-size: 1.5rem;
+    }
+
+    &--small {
+      font-size: 0.8rem;
+    }
+
+    &--large {
+      font-size: 3rem;
+
+      @include lg {
+        font-size: 4rem;
+      }
+    }
+  }
+}

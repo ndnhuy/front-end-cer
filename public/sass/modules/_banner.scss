@@ -1,0 +1,5 @@
+.banner {
+  @include onlyIE {
+    margin-top: 10%;
+  }
+}

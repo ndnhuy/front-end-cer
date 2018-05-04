@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "simple-line-icons";
+  src: url("../fonts/simple-line-icons/Simple-Line-Icons.eot");
+  src: url("../fonts/simple-line-icons/Simple-Line-Icons.woff") format("woff"),
+  url("../fonts/simple-line-icons/Simple-Line-Icons.woff2") format("woff2"),
+  url("../fonts/simple-line-icons/Simple-Line-Icons.ttf") format('truetype'),
+  url("../fonts/simple-line-icons/Simple-Line-Icons.svg#simple-line-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-simple-phone,
+.icon-simple-menu,
+.icon-simple-people,
+.icon-simple-camrecorder,
+.icon-simple-shield,
+.icon-simple-chemistry,
+.icon-simple-energy,
+.icon-simple-trophy,
+.icon-simple-cursor,
+.icon-simple-screen-desktop,
+.icon-simple-social-facebook,
+.icon-simple-social-twitter,
+.icon-simple-social-dribbble,
+.icon-simple-social-dropbox,
+.icon-simple-social-github,
+.icon-simple-phone,
+.icon-simple-envelope,
+.icon-simple-globe,
+.icon-simple-location-pin {
+  font-family: 'simple-line-icons';
+}
+
+.icon-simple-phone:before {
+  content: '\e600';
+}
+
+.icon-simple-menu:before {
+  content: '\e601';
+}
+
+.icon-simple-people:before {
+  content: '\e001';
+}
+
+.icon-simple-camrecorder:before {
+  content: '\e07e';
+}
+
+.icon-simple-shield:before {
+  content: '\e00e';
+}
+
+.icon-simple-chemistry:before {
+  content: '\e026';
+}
+
+.icon-simple-energy:before {
+  content: '\e020';
+}
+
+.icon-simple-trophy:before {
+  content: '\e006';
+}
+
+.icon-simple-cursor:before {
+  content: '\e06e';
+}
+
+.icon-simple-screen-desktop:before {
+  content: '\e011';
+}
+
+.icon-simple-social-facebook:before {
+  content: '\e00b';
+}
+
+.icon-simple-social-twitter:before {
+  content: '\e009';
+}
+
+.icon-simple-social-dribbble:before {
+  content: '\e00d';
+}
+
+.icon-simple-social-dropbox:before {
+  content: '\e00c';
+}
+
+.icon-simple-social-github:before {
+  content: '\e60c';
+}
+
+.icon-simple-phone:before {
+  content: '\e600';
+}
+
+.icon-simple-envelope:before {
+  content: '\e086';
+}
+
+.icon-simple-globe:before {
+  content: '\e037';
+}
+
+.icon-simple-location-pin:before {
+  content: '\e096';
+}

@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon/icomoon.eot');
+  src: url('../fonts/icomoon/icomoon.woff') format('woff'),
+       url('../fonts/icomoon/icomoon.ttf') format('truetype'),
+       url('../fonts/icomoon/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-moon-facebook,
+.icon-moon-twitter,
+.icon-moon-dribble,
+.icon-moon-dropbox,
+.icon-moon-github,
+.icon-moon-location,
+.icon-moon-codepen {
+  font-family: 'icomoon';
+}
+
+.icon-moon-facebook:before {
+  content: '\f09a';
+}
+
+.icon-moon-twitter:before {
+  content: '\f099';
+}
+
+.icon-moon-dribble:before {
+  content: '\f17d';
+}
+
+.icon-moon-dropbox:before {
+  content: '\f16b';
+}
+
+.icon-moon-github:before {
+  content: '\f09b';
+}
+
+.icon-moon-location:before {
+  content: '\f041';
+}
+
+.icon-moon-codepen:before {
+  content: '\f1cb';
+}

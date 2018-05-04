@@ -1,0 +1,39 @@
+.card {
+  position: relative;
+  border: 1px solid #BFBFBF;
+  border-radius: 5px;
+  box-shadow: 0px 2px 11px 1px #aaaaaa;
+  text-align: center;
+  background-color: white;
+  padding: 1rem 1.2rem;;
+  color: #5e5e5e;
+  height: 100%;
+  
+  &__title {
+    margin-bottom: 0.5rem;
+    &--dark {
+      color: black;
+    }
+  }
+
+  &__subtitle {
+    margin-bottom: 0.2rem;
+  }
+
+  &__body {
+    margin-bottom: 1rem;
+    flex: 1;
+
+    &--top-spacing {
+      margin-top: 2rem;
+    }
+  }
+
+  &__footer {
+    margin-bottom: 1rem;
+  }
+
+  &__floating {
+    margin: -80px auto 20px;
+  }
+}

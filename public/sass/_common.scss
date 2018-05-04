@@ -1,47 +1,7 @@
-.separate-line {
-  display: inline-block;
-  width: 4rem;
-
-  &--small {
-    width: 2rem;
-  }
+.link-text {
+  text-decoration: none;
 }
 
-
-.text-center {
-  text-align: center;
-}
-
-.color-light {
-  color: white;
-}
-
-.color-lowlight {
-  color: #ffffffc7;
-}
-
-.padding-tight {
-  padding: 4rem 4rem 8rem 4rem;
-}
-
-//TODO move this to separate block?
-.background-lightdark {
-  background-color: #f0f0f0eb;
-}
-
-.background-dark {
-  background-color: grey;
-}
-
-$gutter-bottom: 1.5rem;
-.gutter-bottom {
-  margin-bottom: $gutter-bottom;
-
-  &--double {
-    margin-bottom: $gutter-bottom*2;
-  }
-}
-
-.full-height {
-  height: 100%;
+.invisible {
+  visibility: hidden;
 }

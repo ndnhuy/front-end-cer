@@ -1,0 +1,39 @@
+.text {
+  &-l {
+    font-size: 1.2rem;
+  }
+
+  &-m {
+    font-size: 1rem;
+  }
+
+  &-s {
+    font-size: 0.8rem;
+  }
+
+  @include md {
+    &-l {
+      font-size: 1.5rem;
+    }
+
+    &-m {
+      font-size: 1.2rem;
+    }
+
+    &-s {
+      font-size: 1rem;
+    }
+  }
+
+  @include lg {
+    &-l {
+      font-size: 1.5rem;
+    }
+    &-m {
+      font-size: 1.25rem;
+    }
+    &-s {
+      font-size: 1rem;
+    }
+  }
+}

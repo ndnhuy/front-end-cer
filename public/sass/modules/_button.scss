@@ -1,0 +1,50 @@
+.button {
+  background-color: #1FB5F6;
+  color: white;
+  width: 12em;
+  border: none;
+  border-radius: 3px;
+  padding: 1.4em 1.1em;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  line-height: 1px;
+  cursor: pointer;
+  margin: 0.5em;
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  &--primary {
+    background-color: #f44336;
+  }
+
+  &--round {
+    padding: 0.2em 0.5em;
+
+    border: 2px solid red;
+    border-radius: 44px;
+    background-color: transparent;
+    color: inherit;
+    transition: border-radius 0.2s;
+
+    &:hover {
+      border-radius: 0;
+    }
+  }
+
+  &--transparent {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+  }
+
+  &--small {
+    font-size: 0.8rem;
+    width: 10em;
+  }
+
+  &--no-margin {
+    margin: 0;
+  }
+}
