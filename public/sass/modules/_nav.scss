@@ -12,6 +12,13 @@
     }
   }
 
+  &--theme-dark {
+    background-color: black;
+    a {
+      color: white;
+    }
+  }
+
   &__logo {
     flex: 1;
   }
@@ -49,6 +56,10 @@
   &__link {
     font-size: 1.1rem;
     text-decoration: none;
+
+    &:hover {
+      color: red;
+    }
   }
 
   &__underline {

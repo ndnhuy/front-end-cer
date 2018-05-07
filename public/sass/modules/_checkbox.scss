@@ -33,10 +33,10 @@
   [type="radio"]:checked + label:after {
     content: '';
     position: absolute;
-    top: 5px;
-    left: 6px;
+    top: 6px;
+    left: 5px;
     width: 5px;
-    height: 8px;
+    height: 7px;
     border: solid #4BC3F7;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);

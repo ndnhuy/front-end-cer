@@ -2,7 +2,6 @@
 @import "variables";
 @import "common";
 @import "base";
-@import "colors";
 @import "layouts/grid";
 @import "layouts/layout";
 @import "modules/separate-line";
@@ -23,6 +22,7 @@
 @import "modules/fancy-link";
 @import "modules/animation";
 @import "modules/banner";
+@import "modules/colors";
 @import "components/header";
 @import "components/footer";
 @import "components/plan";
