@@ -5,6 +5,7 @@
     border-bottom: 2px solid red;
     transition: width 0.2s linear;
   }
+  
   a:hover {
     color: red;
   }
@@ -12,4 +13,5 @@
   a:hover ~ &__underline {
     width: 100%;
   }
+
 }

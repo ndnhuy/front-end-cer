@@ -11,7 +11,7 @@
 <body>
   <header class="header wrapper">
     <nav class="nav nav--theme-light header__nav">
-      <div class="logo nav__logo">
+      <div class="logo nav__logo bouncing bouncing--slow">
         <span>R</span>
         <span>W</span>
         <span>D</span>
@@ -20,7 +20,7 @@
       <label for="nav__toggle-checkbox" class="nav__toggle">
         <i class="icon-simple-menu"></i>
       </label>
-      <ul class="nav__container">
+      <ul class="nav__container bouncing bouncing--slow">
         <li class="nav__item">
           <div class="fancy-link">
             <a class="nav__link" href="#">Home</a>
@@ -60,9 +60,9 @@
     </nav>
   </header>
   <section class="section section--padding-bottom-only section--theme-dark grid grid--center wrapper">
-    <div class="grid__cell grid__cell--desktop-up-7of12 text-center banner">
-      <h1 class="section__heading heading-l">RWD - RESPONSIVE WEB DESIGN</h1>
-      <p class="section__text text-l">
+    <div class="grid__cell grid__cell--desktop-up-7of12 text-center banner bouncing bouncing--slow">
+      <h1 class="section__heading heading-l swing">RWD - RESPONSIVE WEB DESIGN</h1>
+      <p class="section__text text-l fadeIn">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
         penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       </p>
@@ -341,7 +341,7 @@
         <div class="grid grid--center grid--padded-cell grid--desktop-padded-cell-side grid--tablet-padded-cell-around gutter-bottom--double">
           <div class="grid__cell grid__cell--desktop-up-3of12 grid__cell--tablet-up-3of6">
             <div class="card gutter-top--double">
-              <div class="avatar card__floating">
+              <div class="avatar card__floating biggerWhenActive">
                 <img src="images/person1.png">
               </div>
               <h4 class="card__title card__title--dark">ROGER GARFIELD</h4>
@@ -371,7 +371,7 @@
           </div>
           <div class="grid__cell grid__cell--desktop-up-3of12 grid__cell--tablet-up-3of6">
             <div class="card gutter-top--double">
-              <div class="avatar card__floating">
+              <div class="avatar card__floating biggerWhenActive">
                 <img src="images/person2.png">
               </div>
               <h4 class="card__title card__title--dark">KEVIN STEVE</h4>
@@ -401,7 +401,7 @@
           </div>
           <div class="grid__cell grid__cell--desktop-up-3of12 grid__cell--tablet-up-6of6">
             <div class="card gutter-top--double">
-              <div class="avatar card__floating">
+              <div class="avatar card__floating biggerWhenActive">
                 <img src="images/person3.png">
               </div>
               <h4 class="card__title card__title--dark">ROSS STANDFORD</h4>
@@ -481,10 +481,18 @@
           <h1 class="footer__title">Connect with Us</h1>
           <hr class="separate-line separate-line--small gutter-bottom">
           <div>
-            <i class="icon icon--sky icon-moon-facebook"></i>
-            <i class="icon icon--sky icon-moon-twitter"></i>
-            <i class="icon icon--sky icon-moon-dribble"></i>
-            <i class="icon icon--sky icon-moon-dropbox"></i>
+              <a href="http://www.facebook.com">
+                <i class="icon icon--sky icon-moon-facebook"></i>
+              </a>
+              <a href="https://twitter.com/">
+                <i class="icon icon--sky icon-moon-twitter"></i>
+              </a>
+              <a href="https://dribbble.com/">
+                <i class="icon icon--sky icon-moon-dribble"></i>
+              </a>
+              <a href="https://codepen.io/">
+                <i class="icon icon--sky icon-moon-codepen"></i>
+              </a>
           </div>
         </div>
       </div>
@@ -520,5 +528,4 @@
     </div>
   </footer>
 </body>
-
 </html>
